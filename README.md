@@ -1,4 +1,4 @@
-# IoT Control — Painel de Monitoramento e Controle IoT com MQTT
+# IoT Control - Painel de Monitoramento e Controle IoT com MQTT
 
 Aplicativo mobile em **React Native + Expo + TypeScript** que monitora um ambiente inteligente simulado (temperatura, umidade e lâmpada virtual) usando o protocolo **MQTT** (modelo publish/subscribe) através de um broker acessível por **WebSocket**.
 
@@ -124,11 +124,20 @@ src/
 
 ## Prints das telas
 
-
-| Dashboard (Light) | Dashboard (Dark) | Histórico | Configurações |
-|---|---|---|---|
-| ![](docs/screens/dashboard-light.jpeg) | ![](docs/screens/dashboard-dark.jpeg) | ![](docs/screens/history.jpeg) | ![](docs/screens/settings.jpeg) |
-
+<table>
+  <tr>
+    <th align="center">Dashboard (Light)</th>
+    <th align="center">Dashboard (Dark)</th>
+    <th align="center">Histórico</th>
+    <th align="center">Configurações</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screens/dashboard-light.jpeg" width="220" alt="Dashboard Light" /></td>
+    <td align="center"><img src="docs/screens/dashboard-dark.jpeg" width="220" alt="Dashboard Dark" /></td>
+    <td align="center"><img src="docs/screens/history.jpeg" width="220" alt="Histórico" /></td>
+    <td align="center"><img src="docs/screens/settings.jpeg" width="220" alt="Configurações" /></td>
+  </tr>
+</table>
 
 ## Limitações e observações
 
